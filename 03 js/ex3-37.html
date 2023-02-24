@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>String 객체</title>
+    <script>
+        // charAt()
+        var str = 'Javascript'
+        document.write(str.charAt(0),'<br>');
+        // indexOf()
+        var str = 'Javascript'
+        document.write(str.indexOf('a'),'<br>');
+        document.write(str.indexOf('k'),'<br>');
+        // lastIndexOf()
+        var str = 'Javascript'
+        document.write(str.lastIndexOf('a'),'<br>');
+        // includes()
+        var str = 'Javascript';
+        document.write(str.includes('script'),'<br>');
+        // substring()
+        var str = 'http://icoxpublish.com';
+        document.write(str.substring(0, 4),'<br>');
+        document.write(str.substring(7),'<br>');
+        // substr()
+        var str = 'http://icoxpublish.com';
+        document.write(str.substr(7, 4),'<br>');
+        // split()
+        var str = 'Javascript_jQuery';
+        var division = str.split('_');
+        document.write(division[0] + ', ' + division[1],'<br>');
+        // replace()
+        var str = 'm_out.gif';
+        document.write(str.replace('out', 'over'),'<br>');
+        // concat()
+        var str1 = 'nav';
+        var str2 = '_bg';
+        document.write(str1.concat(str2),'<br>');
+        // trim()
+        var str = ' removeblank ';        
+        document.write(str.trim(),'<br>');       
+        // toLowerCase(), toUpperCase()
+        var str = 'LowerCase';
+        document.write(str.toLowerCase(),'<br>');
+        var str = 'UpperCase';
+        document.write(str.toUpperCase(),'<br>');
+    </script>
+</head>
+<body>
+</body>
+</html>
